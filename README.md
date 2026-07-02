@@ -1,2 +1,2 @@
 # http-127.0.0.1-5502-
-LUMIÈRE 化粧品コーナーLP HTML CSS Javascriptコーポレートサイト
+LUMIÈRE の HTML / CSS / JavaScript 製 SaaS コーポレートサイトです。

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMIÈRE | SaaSコーポレートサイト</title>
+    <meta
+      name="description"
+      content="LUMIÈREは業務効率化と顧客体験向上を支援するSaaSプラットフォームです。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#top">LUMIÈRE</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="global-nav"
+          aria-label="メニューを開く"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="global-nav" class="nav-links">
+          <a href="#service">サービス</a>
+          <a href="#features">特長</a>
+          <a href="#company">会社情報</a>
+          <a href="#contact" class="button button-secondary">お問い合わせ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">SMART GROWTH PLATFORM</p>
+            <h1>成長を加速する、<br />次世代SaaSプラットフォーム。</h1>
+            <p class="lead">
+              LUMIÈREは営業、サポート、分析を一つにつなぎ、チームの生産性と顧客体験を同時に高めます。
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="button">無料相談を予約</a>
+              <a href="#features" class="button button-ghost">機能を見る</a>
+            </div>
+            <dl class="stats">
+              <div>
+                <dt>導入企業</dt>
+                <dd>500+</dd>
+              </div>
+              <div>
+                <dt>継続率</dt>
+                <dd>98%</dd>
+              </div>
+              <div>
+                <dt>業務削減</dt>
+                <dd>35%</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-card">
+            <div class="dashboard-card">
+              <p class="card-label">Realtime Overview</p>
+              <h2>ダッシュボードで状況を可視化</h2>
+              <ul>
+                <li>売上・対応数・顧客満足度を一画面で管理</li>
+                <li>自動レポートで意思決定を高速化</li>
+                <li>チーム横断の連携をシンプルに</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">SERVICE</p>
+            <h2>企業成長に必要な機能を、すべて一つに。</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>顧客データ統合</h3>
+              <p>分散した顧客情報を一元管理し、最適なアクションをすばやく実行できます。</p>
+            </article>
+            <article class="card">
+              <h3>自動ワークフロー</h3>
+              <p>問い合わせ対応やタスク割り当てを自動化し、現場の負担を削減します。</p>
+            </article>
+            <article class="card">
+              <h3>高度な分析</h3>
+              <p>リアルタイム分析とレポートで、次の打ち手をデータで支援します。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section section-accent">
+        <div class="container feature-grid">
+          <div>
+            <p class="eyebrow">FEATURES</p>
+            <h2>現場で使いやすく、経営にも強い。</h2>
+          </div>
+          <div class="feature-list">
+            <article>
+              <h3>スピーディーな導入</h3>
+              <p>最短2週間で利用開始。既存業務への定着まで専任チームが伴走します。</p>
+            </article>
+            <article>
+              <h3>高いセキュリティ</h3>
+              <p>権限管理・ログ管理・安全な運用設計で、安心して利用できる基盤を提供します。</p>
+            </article>
+            <article>
+              <h3>柔軟な拡張性</h3>
+              <p>企業規模や成長フェーズに合わせて、必要な機能をスムーズに拡張できます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="company" class="section">
+        <div class="container company-grid">
+          <div>
+            <p class="eyebrow">COMPANY</p>
+            <h2>テクノロジーで、企業の可能性をひらく。</h2>
+          </div>
+          <div class="company-panel">
+            <p>
+              LUMIÈREは、SaaSを通じて業務改善と顧客体験向上を支援するコーポレートブランドです。伴走型の支援で、現場に定着するDXを実現します。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2>まずはお気軽にご相談ください。</h2>
+            <p>課題整理から導入イメージまで、担当者が丁寧にご案内します。</p>
+          </div>
+          <a class="button" href="mailto:contact@lumiere.example">contact@lumiere.example</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="current-year"></span> LUMIÈRE. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
