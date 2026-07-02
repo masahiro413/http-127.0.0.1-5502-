@@ -1,0 +1,118 @@
+/* ============================================
+   LUMIÈRE — lp.css
+   LP固有の追加スタイル（style.cssを上書き・拡張）
+   ============================================ */
+
+/* --- Hero: real bottle image --------------- */
+.bottle-img {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 56px rgba(196, 98, 122, 0.22));
+  animation: float 5s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
+}
+
+/* --- About: real bottle image -------------- */
+.about-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 16px 48px rgba(196, 98, 122, 0.14);
+  display: block;
+  margin: 0 auto;
+}
+
+/* --- Product cards: real images ------------ */
+.product-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.4s ease;
+}
+.product-card:hover .product-img {
+  transform: scale(1.04) translateY(-4px);
+}
+
+/* --- Product card visual bg tweak ---------- */
+.product-card__visual {
+  min-height: 220px;
+  padding: 24px 16px;
+}
+
+
+/* --- Section padding override -------------- */
+.about     { padding: 100px 0; }
+.ingredients { padding: 100px 0; }
+.lineup    { padding: 100px 0; }
+.reviews   { padding: 100px 0; }
+
+/* --- Botanical SVG shadow ------------------ */
+.botanical-svg {
+  filter: drop-shadow(0 8px 24px rgba(139, 175, 142, 0.15));
+}
+
+/* --- Ingredient card hover enhancement ----- */
+.ing-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.ing-card:hover {
+  box-shadow: 0 12px 40px rgba(196, 98, 122, 0.12);
+  transform: translateY(-4px);
+}
+
+/* --- Product card hover enhancement -------- */
+.product-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.product-card:hover {
+  box-shadow: 0 16px 48px rgba(196, 98, 122, 0.14);
+  transform: translateY(-6px);
+}
+
+/* --- Review card border accent ------------- */
+.review-card {
+  border: 1px solid rgba(201, 169, 110, 0.18);
+}
+
+/* --- Buy section note ---------------------- */
+.buy__note {
+  letter-spacing: 1.5px;
+}
+
+/* --- Footer nav gap ------------------------ */
+.footer__nav {
+  gap: 24px;
+}
+
+/* --- Petal z-index fix --------------------- */
+.petals {
+  z-index: 0;
+}
+.hero__copy,
+.hero__visual {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- Scroll hint opacity ------------------- */
+.scroll-hint {
+  opacity: 0.5;
+}
+
+/* --- Orbit pointer-events fix -------------- */
+.orbit {
+  pointer-events: none;
+}
+
+/* --- Page top z-index ---------------------- */
+.pagetop {
+  z-index: 90;
+}
